@@ -5,7 +5,7 @@ First install Development dependencies using:
 ```Bash
 npm install --production
 ```
-*You_may_have_to_run_with * ```sudo``` *if_you_are_on_a_Linux_distribution.*
+*You may have to run with* ```sudo``` *if you are on a Linux distribution.*
 
 ```Bash
 gulp
