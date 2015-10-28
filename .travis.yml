@@ -14,4 +14,4 @@ before_script:
   - npm install nw-test-runner --save-dev
   - cd dist
 script:
-  - nw-test-runner
+  - npm test

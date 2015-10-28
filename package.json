@@ -35,7 +35,7 @@
   },
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/nw-test-runner app.service.js"
   },
   "license": "ISC",
   "description": "The Saturn Project."
