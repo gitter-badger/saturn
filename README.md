@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/bennettjohnson/saturn.svg?branch=master)](https://travis-ci.org/bennettjohnson/saturn)
 [![Dependency Status](https://david-dm.org/bennettjohnson/saturn.svg)](https://david-dm.org/bennettjohnson/saturn)
 [![devDependency Status](https://david-dm.org/bennettjohnson/saturn/dev-status.svg)](https://david-dm.org/bennettjohnson/saturn#info=devDependencies)
 # saturn
