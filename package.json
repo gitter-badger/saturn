@@ -35,7 +35,7 @@
   },
   "main": "gulpfile.js",
   "scripts": {
-    "test": "node node_modules/nw-test-runner app.service.js"
+    "test": "node node_modules/nw-test-runner"
   },
   "license": "ISC",
   "description": "The Saturn Project."
