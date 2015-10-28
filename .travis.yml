@@ -10,7 +10,7 @@ node_js:
   - "iojs"
 
 before_script:
-  - npm install nw-test-runner -g
+  - npm install --production
   - npm install nw-test-runner --save-dev
   - cd dist
 script:
