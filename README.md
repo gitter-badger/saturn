@@ -12,6 +12,7 @@ Next, run gulp
 gulp
 ```
 Next, run "nw" located in the dist folder.
+
 Reminder: *"nw" is only for testing purposes, building will download Node-Webkit and compile for you.*
 
 # Building
