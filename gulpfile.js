@@ -5,9 +5,11 @@ var sass = require('gulp-sass');
 var html = require('gulp-htmlmin');
 var mcss = require('gulp-cssmin');
 var sync = require('browser-sync');
-var htmllint = require('gulp-htmllint');
+var build = require('gulp-nw-builder');
 var csslint = require('gulp-csslint');
+var htmllint = require('gulp-htmllint');
 var jslint = require('gulp-jslint');
+
 
 gulp.task('js', function(){
   util.log(util.colors.green('Crunching Hard...'));
@@ -61,4 +63,11 @@ gulp.task('watch', function(){
   gulp.watch('app/views/*.html', ['html']);
 });
 
+gulp.task('build', function(){
+  return gulp.src('./dist/src/**/*')
+    .pipe(build({
+      version: 'v0.0.1',
+      platforms: ['linux64']
+    }))
+});
 gulp.task('default', ['sync' ,'watch']);
