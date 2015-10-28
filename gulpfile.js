@@ -61,6 +61,4 @@ gulp.task('watch', function(){
   gulp.watch('app/views/*.html', ['html']);
 });
 
-
-
 gulp.task('default', ['sync' ,'watch']);
